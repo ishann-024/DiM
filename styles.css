@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+:root {
+    --primary-color: #ff4500;
+    --secondary-color: #333;
+    --light-color: #f4f4f4;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: var(--light-color);
+    color: var(--secondary-color);
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+header {
+    background: var(--secondary-color);
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: var(--primary-color) 3px solid;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li {
+    display: inline;
+    padding: 0 20px;
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight, header .current a {
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+header a:hover {
+    color: var(--light-color);
+    font-weight: bold;
+}
+
+/* Hero Section */
+#hero {
+    min-height: 400px;
+    background: url('https://source.unsplash.com/1600x900/?gym') no-repeat center center/cover;
+    text-align: center;
+    color: #fff;
+}
+
+#hero h1 {
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+#hero p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.button {
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    background: var(--primary-color);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.button:hover {
+    background: #ff6347;
+}
+
+/* Boxes */
+#boxes {
+    margin-top: 20px;
+}
+
+#boxes .box {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+}
+
+#boxes .box img {
+    width: 90px;
+}
+
+/* About */
+#about {
+    padding: 20px;
+    background: #fff;
+    margin-top: 20px;
+}
+
+/* Classes */
+#classes {
+    padding: 20px;
+    background: #fff;
+    margin-top: 20px;
+}
+
+.class-item {
+    background: var(--light-color);
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+/* Membership */
+#pricing {
+    padding: 20px;
+    background: #fff;
+    margin-top: 20px;
+}
+
+.price-box {
+    background: var(--light-color);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.price-box h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Contact */
+#contact {
+    padding: 20px;
+    background: #fff;
+    margin-top: 20px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    margin-top: 20px;
+    color: #fff;
+    background-color: var(--secondary-color);
+    text-align: center;
+}
+
+/* Responsive 
+@media(max-width: 768px) {
+    header #branding,
+    header nav,
+    header nav li,
+    #boxes .box {
+*/
